@@ -9,9 +9,9 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@hoprnet/hopr-core-connector-interface@hoprnet/hopr-core-connector-interface":
+"@validitylabs/hopr-core-connector-interface@validitylabs/hopr-core-connector-interface":
   version "1.0.0"
-  resolved "https://codeload.github.com/hoprnet/hopr-core-connector-interface/tar.gz/84d085af1310fa4c8b542b2c6d77ffec6d4cc7ee"
+  resolved "https://codeload.github.com/validitylabs/hopr-core-connector-interface/tar.gz/84d085af1310fa4c8b542b2c6d77ffec6d4cc7ee"
 
 "@polkadot/api-derive@^0.100.1":
   version "0.100.1"
