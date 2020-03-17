@@ -5,14 +5,14 @@
 HOPR is a privacy-preserving messaging protocol that incentivizes users to participate in the network. It provides privacy by relaying messages via several relay nodes to the recipient. Relay nodes are getting paid via payment channels for their services.
 
 ## hopr-core-polkadot
-A connector between [`hopr-core`](https://github.com/hoprnet/hopr-core) and [`hopr-polkadot`](https://github.com/hoprnet/hopr-polkadot). Implements [`hopr-core-connector-interface`](https://github.com/hoprnet/hopr-core-connector-interface).
+A connector between [`hopr-core`](https://github.com/validitylabs/hopr-core) and [`hopr-polkadot`](https://github.com/validitylabs/hopr-polkadot). Implements [`hopr-core-connector-interface`](https://github.com/validitylabs/hopr-core-connector-interface).
 
 ## Testing
 
 ### Get `hopr-core-polkadot`
 
 ```
-git clone https://github.com/hoprnet/hopr-core-polkadot.git
+git clone https://github.com/validitylabs/hopr-core-polkadot.git
 cd hopr-core-polkadot
 ```
 
@@ -25,9 +25,9 @@ rustc --version
 // rustc 1.40.0 (73528e339 2019-12-16)
 ```
 
-Follow the instruction stated in [`hopr-polkadot`](https://github.com/hoprnet/hopr-polkadot). **This also includes building Substrate 1.0**. Be aware that this might take some time.
+Follow the instruction stated in [`hopr-polkadot`](https://github.com/validitylabs/hopr-polkadot). **This also includes building Substrate 1.0**. Be aware that this might take some time.
 
-Change `polkadotBasepath` in `src/config.ts` such that it points to the directory in which [`hopr-polkadot`](https://github.com/hoprnet/hopr-polkadot) is installed.
+Change `polkadotBasepath` in `src/config.ts` such that it points to the directory in which [`hopr-polkadot`](https://github.com/validitylabs/hopr-polkadot) is installed.
 
 ```ts
 export const polkadotBasepath = "../../hopr-polkadot"
