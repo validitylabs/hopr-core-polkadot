@@ -2,7 +2,7 @@ import { Struct } from '@polkadot/types/codec'
 
 import { TicketEpoch, Hash, Public } from './base'
 
-import type { Types } from '@hoprnet/hopr-core-connector-interface'
+import type { Types } from '@validitylabs/hopr-core-connector-interface'
 
 class State extends Struct.with({
   epoch: TicketEpoch,

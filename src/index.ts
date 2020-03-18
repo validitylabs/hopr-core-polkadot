@@ -14,7 +14,7 @@ import secp256k1 from 'secp256k1'
  
 import { Channel } from './channel'
 
-import HoprCoreConnector, { Utils as IUtils, Types as ITypes, Channel as IChannel, DbKeys as IDbKeys } from '@hoprnet/hopr-core-connector-interface'
+import HoprCoreConnector, { Utils as IUtils, Types as ITypes, Channel as IChannel, DbKeys as IDbKeys } from '@validitylabs/hopr-core-connector-interface'
 
 export { Types, Utils } 
 

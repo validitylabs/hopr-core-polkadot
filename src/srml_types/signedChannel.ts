@@ -8,7 +8,7 @@ import { Channel, Funded, Uninitialized, Active, PendingSettlement, ChannelBalan
 import { Balance, Moment } from './base'
 import { verify, sign, u8aEquals } from '../utils'
 
-import type { Types } from '@hoprnet/hopr-core-connector-interface'
+import type { Types } from '@validitylabs/hopr-core-connector-interface'
 
 import type HoprPolkadot from '../'
 

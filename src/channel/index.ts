@@ -13,7 +13,7 @@ import type HoprPolkadot from '..'
 
 const NONCE_HASH_KEY = Uint8Array.from(new TextEncoder().encode('Nonce'))
 
-import { Channel as ChannelInstance, Types } from '@hoprnet/hopr-core-connector-interface'
+import { Channel as ChannelInstance, Types } from '@validitylabs/hopr-core-connector-interface'
 import BN from 'bn.js'
 
 class Channel implements ChannelInstance<HoprPolkadot> {

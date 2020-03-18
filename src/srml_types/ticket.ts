@@ -12,7 +12,7 @@ import type { State } from './state'
 
 import { sign, verify } from '../utils'
 
-import type { Types } from '@hoprnet/hopr-core-connector-interface'
+import type { Types } from '@validitylabs/hopr-core-connector-interface'
 
 const WIN_PROB = new BN(1)
 

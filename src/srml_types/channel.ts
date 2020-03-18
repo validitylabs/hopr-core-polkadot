@@ -6,7 +6,7 @@ import { Null } from '@polkadot/types'
 
 import { Balance, Moment } from './base'
 
-import type { Types } from '@hoprnet/hopr-core-connector-interface'
+import type { Types } from '@validitylabs/hopr-core-connector-interface'
 import type BN from 'bn.js'
 
 type ChannelBalanceConstructor = {

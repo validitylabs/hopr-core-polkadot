@@ -1,6 +1,6 @@
 import type { Moment } from '../srml_types'
 import { Hash, Signature, AccountId } from '../srml_types'
-import type { Types } from '@hoprnet/hopr-core-connector-interface'
+import type { Types } from '@validitylabs/hopr-core-connector-interface'
 import type { ApiPromise } from '@polkadot/api'
 import { u8aConcat } from '@polkadot/util'
 import KeyRing from '@polkadot/keyring'

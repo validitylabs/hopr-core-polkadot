@@ -1,6 +1,6 @@
 import { u32, u64, u128, H256 } from '@polkadot/types'
 
-import type { Types } from '@hoprnet/hopr-core-connector-interface'
+import type { Types } from '@validitylabs/hopr-core-connector-interface'
 
 import type {
   AccountId as IAccountId,
